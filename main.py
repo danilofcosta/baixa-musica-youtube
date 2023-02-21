@@ -55,7 +55,7 @@ def allmsg(m):
         try:
             os.system('rm -r music/')#caso tiver usando link
         except:
-            os.remove('os.path.join(os.getcwd(),'music')')
+            os.remove(os.path.join(os.getcwd(),'music'))
 
 print(f'rodandando no bot {user.first_name} .............')
 bot.polling()
