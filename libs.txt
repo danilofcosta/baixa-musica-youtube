@@ -1,0 +1,4 @@
+ pytube
+ moviepy
+ imageio==2.4.1
+l --upgrade imageio-ffmpe
